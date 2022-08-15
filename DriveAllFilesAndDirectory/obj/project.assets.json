@@ -1,0 +1,143 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "DriveFinder/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/DriveFinder.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DriveFinder.dll": {}
+        }
+      },
+      "FileFinder/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/FileFinder.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/FileFinder.dll": {}
+        }
+      },
+      "FolderFinder/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/FolderFinder.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/FolderFinder.dll": {}
+        }
+      },
+      "ILoopToFindAllFIlesDirectories/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "FileFinder": "1.0.0",
+          "FolderFinder": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/ILoopToFindAllFIlesDirectories.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ILoopToFindAllFIlesDirectories.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "DriveFinder/1.0.0": {
+      "type": "project",
+      "path": "../DriveFinder/DriveFinder.csproj",
+      "msbuildProject": "../DriveFinder/DriveFinder.csproj"
+    },
+    "FileFinder/1.0.0": {
+      "type": "project",
+      "path": "../FileFinder/FileFinder.csproj",
+      "msbuildProject": "../FileFinder/FileFinder.csproj"
+    },
+    "FolderFinder/1.0.0": {
+      "type": "project",
+      "path": "../FolderFinder/FolderFinder.csproj",
+      "msbuildProject": "../FolderFinder/FolderFinder.csproj"
+    },
+    "ILoopToFindAllFIlesDirectories/1.0.0": {
+      "type": "project",
+      "path": "../ILoopToFindAllFIlesDirectories/ILoopToFindAllFIlesDirectories.csproj",
+      "msbuildProject": "../ILoopToFindAllFIlesDirectories/ILoopToFindAllFIlesDirectories.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "DriveFinder >= 1.0.0",
+      "ILoopToFindAllFIlesDirectories >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\SSwaroop\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\SSwaroop\\source\\repos\\SearchEngine\\DriveAllFilesAndDirectory\\DriveAllFilesAndDirectory.csproj",
+      "projectName": "DriveAllFilesAndDirectory",
+      "projectPath": "C:\\Users\\SSwaroop\\source\\repos\\SearchEngine\\DriveAllFilesAndDirectory\\DriveAllFilesAndDirectory.csproj",
+      "packagesPath": "C:\\Users\\SSwaroop\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\SSwaroop\\source\\repos\\SearchEngine\\DriveAllFilesAndDirectory\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\SSwaroop\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {
+            "C:\\Users\\SSwaroop\\source\\repos\\SearchEngine\\DriveFinder\\DriveFinder.csproj": {
+              "projectPath": "C:\\Users\\SSwaroop\\source\\repos\\SearchEngine\\DriveFinder\\DriveFinder.csproj"
+            },
+            "C:\\Users\\SSwaroop\\source\\repos\\SearchEngine\\ILoopToFindAllFIlesDirectories\\ILoopToFindAllFIlesDirectories.csproj": {
+              "projectPath": "C:\\Users\\SSwaroop\\source\\repos\\SearchEngine\\ILoopToFindAllFIlesDirectories\\ILoopToFindAllFIlesDirectories.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.303\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
