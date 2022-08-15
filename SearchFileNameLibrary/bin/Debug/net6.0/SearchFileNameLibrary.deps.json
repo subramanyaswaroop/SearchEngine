@@ -1,0 +1,95 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "SearchFileNameLibrary/1.0.0": {
+        "dependencies": {
+          "DriveAllFilesAndDirectory": "1.0.0",
+          "SplitPath": "1.0.0"
+        },
+        "runtime": {
+          "SearchFileNameLibrary.dll": {}
+        }
+      },
+      "DriveAllFilesAndDirectory/1.0.0": {
+        "dependencies": {
+          "DriveFinder": "1.0.0",
+          "ILoopToFindAllFIlesDirectories": "1.0.0"
+        },
+        "runtime": {
+          "DriveAllFilesAndDirectory.dll": {}
+        }
+      },
+      "DriveFinder/1.0.0": {
+        "runtime": {
+          "DriveFinder.dll": {}
+        }
+      },
+      "FileFinder/1.0.0": {
+        "runtime": {
+          "FileFinder.dll": {}
+        }
+      },
+      "FolderFinder/1.0.0": {
+        "runtime": {
+          "FolderFinder.dll": {}
+        }
+      },
+      "ILoopToFindAllFIlesDirectories/1.0.0": {
+        "dependencies": {
+          "FileFinder": "1.0.0",
+          "FolderFinder": "1.0.0"
+        },
+        "runtime": {
+          "ILoopToFindAllFIlesDirectories.dll": {}
+        }
+      },
+      "SplitPath/1.0.0": {
+        "runtime": {
+          "SplitPath.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SearchFileNameLibrary/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DriveAllFilesAndDirectory/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DriveFinder/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "FileFinder/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "FolderFinder/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ILoopToFindAllFIlesDirectories/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SplitPath/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
