@@ -1,0 +1,12 @@
+C:\Users\SSwaroop\source\repos\SearchEngine\SplitPath\bin\Debug\net6.0\SplitPath.deps.json
+C:\Users\SSwaroop\source\repos\SearchEngine\SplitPath\bin\Debug\net6.0\SplitPath.dll
+C:\Users\SSwaroop\source\repos\SearchEngine\SplitPath\bin\Debug\net6.0\SplitPath.pdb
+C:\Users\SSwaroop\source\repos\SearchEngine\SplitPath\obj\Debug\net6.0\SplitPath.csproj.AssemblyReference.cache
+C:\Users\SSwaroop\source\repos\SearchEngine\SplitPath\obj\Debug\net6.0\SplitPath.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\SSwaroop\source\repos\SearchEngine\SplitPath\obj\Debug\net6.0\SplitPath.AssemblyInfoInputs.cache
+C:\Users\SSwaroop\source\repos\SearchEngine\SplitPath\obj\Debug\net6.0\SplitPath.AssemblyInfo.cs
+C:\Users\SSwaroop\source\repos\SearchEngine\SplitPath\obj\Debug\net6.0\SplitPath.csproj.CoreCompileInputs.cache
+C:\Users\SSwaroop\source\repos\SearchEngine\SplitPath\obj\Debug\net6.0\SplitPath.dll
+C:\Users\SSwaroop\source\repos\SearchEngine\SplitPath\obj\Debug\net6.0\refint\SplitPath.dll
+C:\Users\SSwaroop\source\repos\SearchEngine\SplitPath\obj\Debug\net6.0\SplitPath.pdb
+C:\Users\SSwaroop\source\repos\SearchEngine\SplitPath\obj\Debug\net6.0\ref\SplitPath.dll
